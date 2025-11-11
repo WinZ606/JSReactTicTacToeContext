@@ -1,0 +1,25 @@
+.negyzet {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #444;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 2rem;
+    font-weight:700;
+    background: #fff;
+    color: #222;
+    transition: background .12s, transform .08s;
+}
+
+.negyzet.ures:hover {
+    background: #f0f8ff;
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.negyzet.foglalt {
+    background: #f7f7f7;
+    cursor: default;
+    opacity: 0.95;
+}

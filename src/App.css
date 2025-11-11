@@ -1,0 +1,44 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.jatekter {
+  display:grid;
+  grid-template-columns: repeat(3,80px);
+  gap: 8px;
+  justify-content:center;
+}
+
+.status {
+  margin: 16px 0;
+  display:flex;
+  gap: 12px;
+  align-items:center;
+  justify-content:center;
+}
+
+.status .ujra {
+  margin-left: 8px;
+  padding: 6px 12px;
+  border-radius:6px;
+  border:1px solid #666;
+  background:#fff;
+  cursor:pointer;
+}
+
